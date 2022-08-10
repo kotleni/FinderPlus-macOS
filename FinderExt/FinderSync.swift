@@ -20,8 +20,8 @@ class FinderSync: FIFinderSync {
     override func menu(for menuKind: FIMenuKind) -> NSMenu {
         // produce a menu for the extension
         let menu = NSMenu(title: "")
-        menu.addItem(withTitle: "Создать файл", action: #selector(createEmptyFileClicked(_:)), keyEquivalent: "")
-        menu.addItem(withTitle: "Открыть терминал", action: #selector(openTerminalClicked(_:)), keyEquivalent: "")
+        menu.addItem(withTitle: "Create file", action: #selector(createEmptyFileClicked(_:)), keyEquivalent: "")
+        menu.addItem(withTitle: "Open terminal", action: #selector(openTerminalClicked(_:)), keyEquivalent: "")
 
         return menu
     }
