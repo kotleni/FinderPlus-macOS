@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             FIFinderSyncController.showExtensionManagementInterface()
         }
         
-        exit(0)
+        NSApplication.shared.terminate(self)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
