@@ -11,11 +11,8 @@ import FinderSync
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        if !FIFinderSyncController.isExtensionEnabled {
-            FIFinderSyncController.showExtensionManagementInterface()
-        }
-        
-        NSApplication.shared.terminate(self)
+        FIFinderSyncController.showExtensionManagementInterface()
+        //NSApplication.shared.terminate(self)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
