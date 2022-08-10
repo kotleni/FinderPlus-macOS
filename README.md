@@ -1,5 +1,5 @@
 ## FinderPlus
-Simple Finder extension for creating files + open terminal from context menu.
+A simple Finder extension for creating files + opening a terminal from the context menu.
 
 ## Installing
 Copy program from releases to /Applications folder and run. After opening extensions list, enable it.
