@@ -2,7 +2,7 @@
 //  FinderSync.swift
 //  FinderExt
 //
-//  Created by Victor Varenik on 10.08.2022.
+//  Created by Viktor Varenik on 10.08.2022.
 //
 
 import Cocoa
